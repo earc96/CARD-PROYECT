@@ -1,78 +1,77 @@
-body{
-    min-height: 100vh;
-    margin: 0;
-    background-image: url(https://i.pinimg.com/564x/49/1b/71/491b7107a19bd8aa8f01c296677894c6.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    font-family: monospace;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-image: url(https://i.pinimg.com/564x/49/1b/71/491b7107a19bd8aa8f01c296677894c6.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-main{
-    max-width: 320px;
-    padding: 16px;
-    margin: 16px;
-    background-color: rgba(0, 0, 0, 0.267);
-    backdrop-filter: blur(16px);
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 0 0 4px rgb(60, 42, 223);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-
+main {
+  max-width: 320px;
+  padding: 16px;
+  margin: 16px;
+  background-color: rgba(0, 0, 0, 0.267);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 0 4px rgb(60, 42, 223);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 h1,
 h2,
-p{
-    margin: 0;
+p {
+  margin: 0;
 }
 
 h2,
-span{
-    color: #888;
-    font-weight: 400;
-
+span {
+  color: #888;
+  font-weight: 400;
 }
 
-img{
-    display: block;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 2px  rgb(60, 42, 223);;
+img {
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 2px rgb(60, 42, 223);
 }
 
-h1{ 
-    font-size: 18px;
+h1 {
+  font-size: 18px;
 }
 
-h2{
-    font-size: 16px;
+h2 {
+  font-size: 16px;
 }
 
-p{
-    font-size: 14px;
+p {
+  font-size: 14px;
 }
 
-ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
 }
 
-.skill{
-    background-color: #087ea4;
-    padding: 4px 16px;
-    border-radius: 16px;
+.skill {
+  background-color: #087ea4;
+  padding: 4px 16px;
+  border-radius: 16px;
 }
-a{
-    font-size: 20px;
-    color: white;
+a {
+  font-size: 20px;
+  color: white;
 }
