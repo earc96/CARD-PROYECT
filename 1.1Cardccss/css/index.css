@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://i.pinimg.com/564x/49/1b/71/491b7107a19bd8aa8f01c296677894c6.jpg);
+    color: white;
+    font-family: monospace;
+    
+}
+main{
+
+    max-width: 320px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    border shadow: 0 0 16px 8px ;
+}
